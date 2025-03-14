@@ -1,0 +1,128 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.to-do-list {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.logout-btn {
+  background-color: hsl(0, 100%, 50%);
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.add-button {
+  margin: 10px;
+  background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+  background-color: hsl(9, 100%, 50%);
+}
+
+.delete-button:hover {
+  background-color: hsl(9, 100%, 40%);
+}
+
+
+.edit-button {
+  background-color: hsl(223, 85%, 56%);
+}
+
+.edit-button:hover {
+  background-color: hsl(223, 85%, 46%);
+}
+
+.move-button {
+  background-color: hsl(223, 85%, 56%);
+}
+
+.move-button:hover {
+  background-color: hsl(223, 85%, 46%);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5)
+}
+
+input[type="checkbox"] {
+  scale: 200%;
+  margin-left: 30px;
+}
+
+ol {
+  padding: 0;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+li {
+  font-size: 1.7rem;
+  font-weight: normal;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button, .move-button, .edit-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.drag-handle {
+  cursor: grab;
+  font-size: 1.8rem;
+  margin-left: 3rem;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
