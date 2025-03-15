@@ -1,6 +1,6 @@
-To-Do List App  
-
+**To-Do List App**  
 A simple and efficient To-Do List application built using Vite and React.  
+  
 Features  
   
   - Add, edit, and delete tasks  
