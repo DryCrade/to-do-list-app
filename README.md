@@ -1,31 +1,38 @@
-To-Do List App
+ <h1>📝 Denn's To-Do List App</h1>
 
-A simple and efficient To-Do List application built using Vite and React.
-Features
+A simple and efficient To-Do List application built using **Vite** and **React**. <br><br>
+🚀 **Features**
 
-    Add, edit, and delete tasks
-    Mark tasks as completed
-    User-friendly and responsive design
-    Firestore database support to save tasks
+- ➕ Add, edit, and delete tasks
 
-Tech Stack
+- ✅ Mark tasks as completed
 
-    Frontend: React JS, Vite
-    Styling: CSS
+- 📱 User-friendly and responsive design
 
-Installation
+- ☁️ Firestore database support to save tasks
 
-    Clone the repository:
+🛠 **Tech Stack**
 
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
+- Frontend: React JS, Vite
 
-Install dependencies:
+- Styling: CSS
+<br>
+<h2>📦 Installation</h2>
 
-npm install
+Follow these steps to run the project locally:
 
-Start the development server:
+**Clone the repository:**
 
-npm run dev
+    git clone https://github.com/your-username/todo-app.git
+    cd todo-app
 
-Open your browser and go to http://localhost:5173/
+**Install dependencies:**
+
+    npm install
+
+**Start the development server:**
+
+    npm run dev
+
+Open the app in your browser <br><br>
+Finally, navigate to: http://localhost:5173/
